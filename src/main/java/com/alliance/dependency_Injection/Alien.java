@@ -1,11 +1,13 @@
 package com.alliance.dependency_Injection;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component
-@Scope(value = "prototype") // by sing this spring boot will not create Alien.class object for you
+//@Scope(value = "prototype")  by sing this spring boot will not create Alien.class object for you
 public class Alien {
+  @Autowired
   private Laptop laptop;
 
   public Laptop getLaptop() {

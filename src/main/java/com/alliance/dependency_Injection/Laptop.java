@@ -1,5 +1,8 @@
 package com.alliance.dependency_Injection;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Laptop {
   private String name;
   private String brand;
