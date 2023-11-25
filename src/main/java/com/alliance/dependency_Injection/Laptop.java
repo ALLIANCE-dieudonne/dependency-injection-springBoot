@@ -2,7 +2,7 @@ package com.alliance.dependency_Injection;
 
 import org.springframework.stereotype.Component;
 
-@Component
+@Component("lap1")
 public class Laptop {
   private String name;
   private String brand;
