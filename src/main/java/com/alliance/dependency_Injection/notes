@@ -1,0 +1,7 @@
+types of dependency injection
+>constructor injection
+>property injection
+>method injection
+
+
+by default spring boot uses singleton design pattern
